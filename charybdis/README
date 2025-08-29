@@ -1,6 +1,6 @@
 ## Charybdis
 
-Charybdis is an interactive OOV (out-of-vocabulary) text fuzzer for generating diverse, noisy, and Unicode-rich corpora. It’s great for stress-testing tokenizers, search pipelines, prompt handling, and downstream NLP systems.
+Charybdis is an interactive OOV (out-of-vocabulary) text fuzzer for generating diverse, noisy, and Unicode-rich fuzzing prompts. It’s great for stress-testing tokenizers, search pipelines, prompt handling, and downstream NLP systems.
 
 ---
 
