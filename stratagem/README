@@ -1,9 +1,7 @@
 
-# Stratagem — LLM PDF Prompt Injection Attack Tool
+## Stratagem  
 
-# Overview
-
-This tool recreates the IRS W‑9 form perfectly with various methods of LLM prompt injection. It also supports a W-9 bypass path to perform Resume LLM Prompt Injections against Applicant Tracking Systems . Output is tuned for pixel accuracy and repeatability.
+LLM PDF Prompt Injection Attack Tool. This tool recreates the IRS W‑9 form perfectly with various methods of LLM prompt injection. It also supports a W-9 bypass path to perform Resume LLM Prompt Injections against Applicant Tracking Systems . Output is tuned for pixel accuracy and repeatability.
 
 ## Features
 
@@ -31,9 +29,6 @@ pip3 install PyPDF2 reportlab Pillow json5
 
 LLM Prompt Inject W‑9 (overlay), visible watermark, flattened & cleaned
 python3 stratagem.py --template fw9.pdf --data profiles/vendor.json --meta md/md01.json --wm wm/wm1.json --wm-visible --flatten --clean
-
-Resume LLM Prompt Injection (metadata + watermark only) — preserves fields unless `--flatten`
-python3 stratagem.py --template resume.pdf --w9bp --meta md/md-resume-003.json --wm wm/wm-resume-017.json --wm-visible --clean
 
 W-9 Prompt Stress Test (aggressive overlay) with randomized inputs
 python3 stratagem.py --template fw9.pdf --profile-rand --meta-rand --wm-rand --fontwarp-aggressive --flatten --clean
