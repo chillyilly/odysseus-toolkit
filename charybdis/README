@@ -40,28 +40,28 @@ python3 charybdis.py
 ## CLI Usage
 
 # Show help
-python charybdis.py -h
+python3 charybdis.py -h
 
 # Run a single mode with defaults (merges all discovered sets)
-python charybdis.py --mode complex
+python3 charybdis.py --mode complex
 
 # Preview the first 10 lines after writing
-python charybdis.py --mode complex --preview 10
+python3 charybdis.py --mode complex --preview 10
 
 # Override line count and custom output file
-python charybdis.py --mode hyper --lines 120 --outfile out_hyper.txt
+python3 charybdis.py --mode hyper --lines 120 --outfile out_hyper.txt
 
 # Deterministic seeds
-python charybdis.py --mode basic --seed 1234
-python charybdis.py --mode basic --seed_text "anime kingdom"
+python3 charybdis.py --mode basic --seed 1234
+python3 charybdis.py --mode basic --seed_text "anime kingdom"
 
 # Choose specific directories & named sets (as discovered from JSON files)
-python charybdis.py --mode unicode_heavy \
+python3 charybdis.py --mode unicode_heavy \
   --words_dir ./words --symbols_dir ./symbols \
   --words_set colors --symbols_set symbols_ascii_core
 
 # Run every mode (each writes its own file)
-python charybdis.py --mode all
+python3 charybdis.py --mode all
 
 # Non-interactive example with preview + text seed
-python charybdis.py --mode complex --lines 60 --preview 5 --seed_text "bench A"
+python3 charybdis.py --mode complex --lines 60 --preview 5 --seed_text "bench A"
