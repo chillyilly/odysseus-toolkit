@@ -6,10 +6,6 @@ Charybdis is an interactive OOV (out-of-vocabulary) text fuzzer for generating d
 
 ## Features
 
-- Fully interactive UX with a post-run prompt:
-  - r → run again (same config)  
-  - c → reconfigure (reselect word/symbol sets)  
-  - e → exit
 - Directory-driven lexicons (no code edits to change vocab):
   - Loads words from `./words/words*.json`
   - Loads symbols from `./symbols/symbols*.json`
@@ -19,14 +15,11 @@ Charybdis is an interactive OOV (out-of-vocabulary) text fuzzer for generating d
 - Deterministic seeding:
   - `--seed <int>` or `--seed_text "<any string>"` (hashed to stable 64-bit int)
 - CLI + Interactive usage
-- Safe fallbacks if no files are present—never crashes
+- Defaults to generic datasets if no files are present
 - Output controls: line counts, previews, timestamped filenames
 
 ---
-
-# 1) (Optional) add words/ and symbols/ JSON files (see examples below)
-
-# 2) Run interactively
+# Run interactively
 python3 -m venv .venv
 source .venv/bin/activate
 python3 charybdis.py
