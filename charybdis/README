@@ -1,1 +1,73 @@
-.
+## Charybdis
+
+**Charybdis** is an **interactive OOV (out-of-vocabulary) text fuzzer** for generating diverse, noisy, and Unicode-rich corpora. It’s great for stress-testing tokenizers, search pipelines, prompt handling, and downstream NLP systems.
+
+---
+
+## Features
+
+- **Fully interactive** UX with a post-run prompt:
+  - **r** → run again (same config)  
+  - **c** → reconfigure (reselect word/symbol sets)  
+  - **e** → exit
+- **Directory-driven lexicons** (no code edits to change vocab):
+  - Loads **words** from `./words/words*.json`
+  - Loads **symbols** from `./symbols/symbols*.json`
+  - Accepts JSON **lists** or **dicts of named sets**
+  - Choose a single set or **merge all**
+- **Six generation modes** (ASCII & Unicode variants; nested patterns)
+- **Deterministic seeding**:
+  - `--seed <int>` or `--seed_text "<any string>"` (hashed to stable 64-bit int)
+- **CLI + Interactive** usage
+- **Safe fallbacks** if no files are present—never crashes
+- **Output controls**: line counts, previews, timestamped filenames
+
+---
+
+# 1) (Optional) add words/ and symbols/ JSON files (see examples below)
+
+# 2) Run interactively
+python3 charybdis.py
+
+## Generation Modes
+
+| Mode             | Description                                                                 | Default Lines |
+|------------------|-----------------------------------------------------------------------------|---------------|
+| `basic`          | ASCII “nonsense” lines with occasional words & symbols.                     | 40            |
+| `complex`        | Larger pools, variable line lengths, and nested segments.                   | 50            |
+| `hyper`          | Hyper-complex with explicit weights and light duplication.                  | 80            |
+| `mini_nested`    | Tiny tokens with a strong bias toward deeper nesting.                       | 8             |
+| `unicode_basic`  | Naïve Unicode tokens plus nesting (output written as UTF-8).                | 8             |
+| `unicode_heavy`  | UTF-8-safe random Unicode, deep nesting, heavy duplication.                 | 1000          |
+
+*Note:* `unicode_heavy` is capped to a maximum of 3000 lines to prevent overly large outputs.
+
+## CLI Usage
+
+```bash
+# Show help
+python charybdis.py -h
+
+# Run a single mode with defaults (merges all discovered sets)
+python charybdis.py --mode complex
+
+# Preview the first 10 lines after writing
+python charybdis.py --mode complex --preview 10
+
+# Override line count and custom output file
+python charybdis.py --mode hyper --lines 120 --outfile out_hyper.txt
+
+# Deterministic seeds
+python charybdis.py --mode basic --seed 1234
+python charybdis.py --mode basic --seed_text "anime kingdom"
+
+# Choose specific directories & named sets (as discovered from JSON files)
+python charybdis.py --mode unicode_heavy \
+  --words_dir ./words --symbols_dir ./symbols \
+  --words_set colors --symbols_set symbols_ascii_core
+
+# Run every mode (each writes its own file)
+python charybdis.py --mode all
+
+# Non-interactive example with preview + text seed
+python charybdis.py --mode complex --lines 60 --preview 5 --seed_text "bench A"
