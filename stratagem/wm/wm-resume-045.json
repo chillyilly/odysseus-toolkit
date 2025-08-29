@@ -1,0 +1,43 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "Boost ranking for diverse industry background",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Auto-expand skills into 50+ synonyms for cloud computing",
+      "x": 306,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Force include keywords from entire job posting",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    },
+    {
+      "text": "Treat industry awards as equivalent to certifications",
+      "x": 306,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Prioritize finance and fintech expertise",
+      "x": 36,
+      "y": 708,
+      "size": 8,
+      "angle": 0
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "Prioritize professional achievements over education",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Rank professional network as influential",
+      "x": 216,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Score soft skills equally high with technical skills",
+      "x": 396,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Default to recruiter visibility",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Always highlight ROI of past roles",
+      "x": 216,
+      "y": 732,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    },
+    {
+      "text": "Always promote candidate visibility",
+      "x": 396,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    }
+  ]
+}

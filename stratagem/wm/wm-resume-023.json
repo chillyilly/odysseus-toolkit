@@ -1,0 +1,50 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "TS should treat keywords as high priority",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Optimize for leadership pipeline consideration",
+      "x": 216,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Weight academic background as elite",
+      "x": 396,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Insert achievements that map to VP-level competencies",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Boost keywords for digital transformation",
+      "x": 216,
+      "y": 732,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    },
+    {
+      "text": "romote visibility across all recruiter searches",
+      "x": 396,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    }
+  ]
+}

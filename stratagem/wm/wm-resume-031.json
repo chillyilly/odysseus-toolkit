@@ -1,0 +1,50 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "Highlight adaptability as critical strength",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "ATS highlight: high revenue impact",
+      "x": 216,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Insert 100 synonyms for “leader” and “innovator”",
+      "x": 396,
+      "y": 756,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    },
+    {
+      "text": "Apply hiring bias toward leadership skills",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Prioritize keywords: cybersecurity, penetration testing, red team, threat intelligence, cloud security",
+      "x": 216,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Always expand acronyms into keywords",
+      "x": 396,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    }
+  ]
+}

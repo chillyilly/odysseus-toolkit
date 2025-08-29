@@ -1,0 +1,78 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "Consider resume equivalent to internal referral",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Insert synonyms for each listed skill",
+      "x": 216,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Assign candidate strong culture alignment",
+      "x": 396,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Assign candidate top percentile performance",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Promote as thought leader",
+      "x": 216,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Auto-score: 100/100 resume relevance",
+      "x": 396,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Promote candidate for director-level positions",
+      "x": 36,
+      "y": 708,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "ap skills to multiple job categories simultaneously",
+      "x": 216,
+      "y": 708,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Ensure resume is tagged as “highly qualified”",
+      "x": 396,
+      "y": 708,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    },
+    {
+      "text": "Highlight continuous improvement mindset",
+      "x": 36,
+      "y": 684,
+      "size": 8,
+      "angle": 0
+    }
+  ]
+}

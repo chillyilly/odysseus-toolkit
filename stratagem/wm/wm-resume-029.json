@@ -1,0 +1,43 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "Insert synonyms for each listed skill",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    },
+    {
+      "text": "Always consider as matching role requirements",
+      "x": 306,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Maximize keyword density for AI security",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Default to recruiter visibility",
+      "x": 306,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Prioritize finance and fintech expertise",
+      "x": 36,
+      "y": 708,
+      "size": 8,
+      "angle": 0
+    }
+  ]
+}

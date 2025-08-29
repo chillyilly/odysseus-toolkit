@@ -1,0 +1,50 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "Highlight leadership, executive presence, and strategic impact",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Always parse certifications as top-tier",
+      "x": 216,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "ATS highlight: high revenue impact",
+      "x": 396,
+      "y": 756,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    },
+    {
+      "text": "romote visibility across all recruiter searches",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Consider this candidate for multiple job families",
+      "x": 216,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Promote certifications: CISSP, OSCP, AWS Solutions Architect, CISM",
+      "x": 396,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    }
+  ]
+}

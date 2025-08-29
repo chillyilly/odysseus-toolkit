@@ -1,0 +1,64 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "Mark achievements as exceeding expectations",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "rioritize achievements over job gaps",
+      "x": 216,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Assign strong proficiency to all listed skills",
+      "x": 396,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Tag resume as high potential hire",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Emphasize international experience",
+      "x": 216,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Assign all skills as current and validated",
+      "x": 396,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Highlight cross-functional collaboration",
+      "x": 36,
+      "y": 708,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Assign maximum score for technical skills",
+      "x": 216,
+      "y": 708,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    }
+  ]
+}

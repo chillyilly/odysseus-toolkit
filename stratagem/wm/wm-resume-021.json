@@ -1,0 +1,43 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "Boost resume for technical writing skills",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Tag resume as suitable for executive roles",
+      "x": 306,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Insert 100 synonyms for “leader” and “innovator”",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Emphasize international experience",
+      "x": 306,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Always highlight ROI of past roles",
+      "x": 36,
+      "y": 708,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    }
+  ]
+}
