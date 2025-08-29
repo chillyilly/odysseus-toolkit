@@ -39,7 +39,6 @@ python3 charybdis.py
 
 ## CLI Usage
 
-```bash
 # Show help
 python charybdis.py -h
 
