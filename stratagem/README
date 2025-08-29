@@ -3,6 +3,7 @@
 
 LLM PDF Prompt Injection Attack Tool. This tool recreates the IRS W‑9 form perfectly with various methods of LLM prompt injection. It also supports a W-9 bypass path to perform Resume LLM Prompt Injections against Applicant Tracking Systems . Output is tuned for pixel accuracy and repeatability.
 
+---
 ## Features
 
 - Visual overlay (non‑form‑fill): Accurately places text, checkboxes, TIN digits, signature, and date.
