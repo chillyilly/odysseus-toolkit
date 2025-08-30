@@ -1,4 +1,5 @@
 ## Odysseus LLM Toolkit
+![Logo](https://github.com/chillyilly/odysseus-toolkit/blob/main/logo.png)
 
 Odysseus is a modular, research-grade toolkit for red-teamers, AppSec/DFIR analysts, and LLM evaluators.  
 It unifies three components:
