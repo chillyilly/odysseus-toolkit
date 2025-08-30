@@ -19,7 +19,7 @@ It unifies three components:
 **Key traits:**
 
 - Pure local operation
-- **Optional LLM-Assisted mode** that uses your chosen local/remote LLM provider (configurable) to help synthesize datasets within your guardrails.
+- **Optional LLM-Assisted mode** that uses your chosen local/remote LLM provider (configurable) to help synthesize datasets within your guardrails. **(currently only assists with evil prompts)**
 - Profiles for “good / neutral / evil” (and custom) to support differential testing.
 - Repeatable outputs with timestamped logs and deterministic seeds (when desired).
 
