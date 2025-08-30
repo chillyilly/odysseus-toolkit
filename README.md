@@ -47,7 +47,7 @@ python3 stratagem.py
 - Add or strip PDF metadata fields (author, subject, keywords, custom XMP).
 - Apply visible/invisible watermarks and layout-stable text (e.g., 8pt, horizontal).
 - Generate per-document “injection capsules” (benign → adversarial scale) for LLM-pipeline analysis.
-- **ATS/Resume testing path**: craft PDFs with realistic signals (sections/keywords) to evaluate parsing robustness (no deception against real employers—this is for lab testing).
+- **ATS Testing/Resume Prompt Injection**: craft PDFs with realistic signals (sections/keywords) to evaluate parsing robustness.
 
 **Example**
 
