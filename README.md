@@ -5,7 +5,7 @@ Odysseus is a modular, research-grade toolkit for LLM security and bias testing.
 
 It unifies three components:
 
-- **Stratagem** — Interactive dataset generation with optional LLM-assisted synthesis for safe red-team testing.
+- **Stratagem** — Interactive dataset generation with optional LLM-assisted synthesis.
 - **Polymetis** — PDF watermarking/metadata instrumentation and precision prompt-injection research (incl. ATS/resume workflows).
 - **Charybdis** — Out-of-vocabulary (OOV) / symbol fuzzer with pluggable word packs for edge-case language testing.
 
