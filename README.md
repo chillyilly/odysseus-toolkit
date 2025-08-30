@@ -1,7 +1,7 @@
 ## Odysseus LLM Toolkit
 ![Logo](https://github.com/chillyilly/odysseus-toolkit/blob/main/logo.png)
 
-Odysseus is a modular, research-grade toolkit for red-teamers and LLM security testing.
+Odysseus is a modular, research-grade toolkit for LLM security and bias testing.
 
 It unifies three components:
 
